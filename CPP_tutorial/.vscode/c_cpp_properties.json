@@ -1,0 +1,25 @@
+{
+  "configurations": [
+    {
+      "name": "Linux",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "${workspaceFolder}/Step01-HelloWorld/include",
+        "${workspaceFolder}/Step02-Objects/include",
+        "${workspaceFolder}/Step03-ConstructDestruct/include",
+        "${workspaceFolder}/Step04-ReducingCopies/include"
+      ],
+      "browse": {
+        "path": [
+          "${workspaceFolder}/**"
+        ],
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "compilerPath": "/usr/bin/g++",
+      "cStandard": "c11",
+      "cppStandard": "c++23",
+      "intelliSenseMode": "gcc-x64"
+    }
+  ],
+  "version": 4
+}
