@@ -33,9 +33,9 @@ CMake Error at src/CMakeLists.txt:1 (add_executable):
 07) save and run cmake again.
 08) run `make` and this time the executable will be built successfully
 
-# What's tricks?
-cmake looks for files in relative folders to the current folder, so since the CMakeLists.txt
-is *in* the folder `./src` we needed to remove the relative path `src` from the files in the add_executable target.
+# What's the Trick?
+
+CMake resolves file paths relative to the directory containing the `CMakeLists.txt`. Since `CMakeLists.txt` is now *in* the `./src` folder, the paths in `add_executable()` must be relative to that location.
 
 # If you want to try this again then
 10) cd CMakeTutorial/Step03

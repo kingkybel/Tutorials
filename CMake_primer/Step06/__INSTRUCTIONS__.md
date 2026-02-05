@@ -75,9 +75,10 @@ Once you are more familiar with scripting in cmake, you could make this conditio
 the googletest libraries are already present.
 
 
-# If you want to try this again then
-20) cd CMakeTutorial/Step06
-21) rm -rf build output instlldir
-22) cp CMakeLists-backup.txt CMakeLists.txt
-23) cp src/CMakeLists-backup.txt src/CMakeLists.txt
+## Clean Up and Retry
+
+20) `cd CMakeTutorial/Step06`
+21) `rm -rf build output installdir`
+22) `cp CMakeLists-backup.txt CMakeLists.txt`
+23) `cp src/CMakeLists-backup.txt src/CMakeLists.txt`
 

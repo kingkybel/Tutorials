@@ -27,13 +27,9 @@ add_executable(step4 step4.cc)
 ```
 04) observe2: The build of the executable fails with the familiar error `undefined reference to 'sayHello()'`
 
-The reason for this is that we did not tell cmake that the greeter library is necessary for the build of the executable `step4`.
-So we need to tell cmake that the executable target `step4` needs a library called `greeter`.
+The problem: We didn't tell CMake that the `greeter` library is needed to build the `step4` executable. We must link them together.
 
-_NOTE_: In Posix systems library-filneames typically follow the naming convention `lib<name>(_)?<version>[<debug-tag>]?.(a|so)`,
-        for example `libdietersutils_1.0.2.a`.
-        In cmake it is sufficient to provide the <name> - part of the filename (here: `dietersutils`) to identify the library.
-        In our case we created the library file `libgreeter.a` which we want to link to the exe.
+> **Note:** On POSIX systems, library filenames follow the convention `lib<name>(_)?<version>[<debug-tag>]?.(a|so)`, for example `libdietersutils_1.0.2.a`. In CMake, we only need the `<name>` part to reference the library. We created `libgreeter.a`, so we reference it as `greeter`.
 
 10) add the following line at the end of the file src/CMakeLists.txt
 ```

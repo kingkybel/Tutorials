@@ -17,12 +17,13 @@ In Posix systems where make is installed, simple compile operations can be done 
     - make is installed
     - make knows what to do with simple *.cpp, *.cc files
 
-# Use cmake to build the executable
-The build of the executable worked fine, so why bother with cmake?
-    - you might want to use libraries/headers that are not in the standard path or are non-standard themthelves
+# Use CMake to Build the Executable
+
+The `make` approach worked fine, so why use CMake?
+
+    - you might want to use libraries/headers that are not in the standard path or are non-standard themselves
     - your executable consists of more than one file
     - you want different versions of the build (debug/release/performance test/...)
-    -...
 Solution is to define what steps to take to create the executable in one or more `CMakeLists.txt` files.
 The CMakeLists.txt is a fixed name (case sensitive) and we will create it as simple as it gets.
 

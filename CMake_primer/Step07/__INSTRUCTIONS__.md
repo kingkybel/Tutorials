@@ -14,13 +14,16 @@ So we would probably like to have a second version of the executable that has no
 a DEBUG - build. The executable this Debug configuration would be bigger, slower and unsafer, as it would contain
 more information about the program, but it would be debuggable.
 
-## Standard configurations
-- Debug:            Debug build, most or all optimisations disabled, full symbol-table 
-- Release:          Fully ptimised for size and speed 
-- RelWithDebInfo:   Partially optimised with some debug-information so that some debugging can be performed
-- MinSizeRel:       Release configuration with minimal size requirements
+## Standard CMake Build Types
 
-_NOTE_: It is possible to also create non-standard build-types (e.g. `Coverage`, and more). Will not do this here.
+| Type | Purpose | Characteristics |
+|---|---|---|
+| **Debug** | Development | Full symbols, minimal optimization, debuggable |
+| **Release** | Production | Fully optimized, no symbols, fast |
+| **RelWithDebInfo** | Balanced | Optimized with debug info for selective debugging |
+| **MinSizeRel** | Size-critical | Optimized for small binary size |
+
+> **Note:** You can create custom build types (e.g., `Coverage`), but we'll stick to standard ones here.
 
 00) in the root CMakeLists.txt add the following lines after the `cmake_minimum_required` instruction
 ```
@@ -89,9 +92,10 @@ _NOTE_: diff is a command-line comparison utility, but you can use the VSCode-co
 If you know gdb, you can try debugging either of the executables in turn.
     
 
-# If you want to try this again then
-20) cd CMakeTutorial/Step07
-21) rm -rf build output instlldir
-22) cp CMakeLists-backup.txt CMakeLists.txt
-23) cp src/CMakeLists-backup.txt src/CMakeLists.txt
+## Clean Up and Retry
+
+20) `cd CMakeTutorial/Step07`
+21) `rm -rf build output installdir`
+22) `cp CMakeLists-backup.txt CMakeLists.txt`
+23) `cp src/CMakeLists-backup.txt src/CMakeLists.txt`
 
