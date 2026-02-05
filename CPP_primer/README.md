@@ -31,9 +31,9 @@ C++ dominates where performance is critical:
 
 ## What we cover
 
-- Memory Model: [Step00-MemoryInC++](Step00-MemoryInC++)
-- how to build executables using `cmake`: [Step01-HelloWorld](Step01-HelloWorld)
+- History, memory model, compilation: [Step00-ThingsToUnderstand](Step00-ThingsToUnderstand)
+- How to build executables using `cmake`: [Step01-HelloWorld](Step01-HelloWorld)
 - C++ = C + objects ??! : [Step02-Objects](Step02-Objects)
-- the biggest trap for beginners --> auto-generated methods: [Step03-ConstructDestruct](Step03-ConstructDestruct)
-- first look at STL-containers: [Step04-AvoidingPointers](Step04-AvoidingPointers)
+- The biggest trap for beginners --> auto-generated methods: [Step03-ConstructDestruct](Step03-ConstructDestruct)
+- First look at STL-containers: [Step04-AvoidingPointers](Step04-AvoidingPointers)
 
