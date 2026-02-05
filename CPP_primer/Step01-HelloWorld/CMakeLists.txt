@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.8)
+cmake_minimum_required(VERSION 3.10)
 
 # This is your project statement. You should always list languages;
 # Listing the version is nice here since it sets lots of useful variables
