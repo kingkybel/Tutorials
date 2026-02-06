@@ -299,15 +299,15 @@ constexpr static INT_ invalid()
 
 ### Key Concepts Demonstrated
 
-| Concept | Step | Purpose |
-|---------|------|---------|
-| Template parameters | 1 | Type and range specification |
-| Copy constructors | 2 | Converting between types |
-| static_assert | 3 | Compile-time validation |
-| Traits classes | 4-6 | Pluggable policies and behaviors |
-| Explicit specialization | 5 | Type trait implementation |
-| SFINAE (attempted) | 6 | Advanced template techniques |
-| Exception handling | 4, 6 | Error reporting via exceptions |
+| Concept                 | Step | Purpose                          |
+|-------------------------|------|----------------------------------|
+| Template parameters     | 1    | Type and range specification     |
+| Copy constructors       | 2    | Converting between types         |
+| static_assert           | 3    | Compile-time validation          |
+| Traits classes          | 4-6  | Pluggable policies and behaviors |
+| Explicit specialization | 5    | Type trait implementation        |
+| SFINAE (attempted)      | 6    | Advanced template techniques     |
+| Exception handling      | 4, 6 | Error reporting via exceptions   |
 
 ---
 

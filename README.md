@@ -19,6 +19,9 @@ access to
 ### [Bash Primer](Bash_primer/LinuxCheatSheet.md)
 Command-line essentials for Linux/Unix. Learn bash shell commands, scripting, and productivity tips to work efficiently on the command line.
 
+### [Git Cheat Sheet](Git_cheats/Git_cheats.md)
+Essential Git commands and workflows for version control. Includes practical examples using the Tutorials repository—branching, committing, merging, and resolving conflicts.
+
 ### [CMake Primer](CMake_primer/README.md)
 Master CMake, the cross-platform build system for modern C++. Covers the 4-phase compilation process, project configuration, and dependency management through 7 step-by-step examples.
 
