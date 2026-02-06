@@ -33,3 +33,7 @@ Deep dive into C++ templates for type-safe generic programming. Explores functio
 
 ### [Template Demo](templateDemo/README.md)
 Progressive C++ template tutorial building a `limited_int` template class. Demonstrates how to evolve a simple idea into a robust, feature-rich template through 7 incremental steps with hands-on examples.
+
+
+# License
+This repo is free to use under the terms of the [GNU GENERAL PUBLIC LICENSE, Version 3](LICENSE)
