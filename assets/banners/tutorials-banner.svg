@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="400" viewBox="0 0 1600 400" role="img" aria-label="Tutorials banner">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#b45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="400" fill="url(#bg)"/>
+  <circle cx="1220" cy="320" r="200" fill="#fde68a" fill-opacity="0.14"/>
+  <circle cx="260" cy="70" r="140" fill="#fef3c7" fill-opacity="0.18"/>
+  <g transform="translate(1260 120)">
+    <polygon points="10,55 130,15 250,55 130,95" fill="#fff7ed" fill-opacity="0.28" stroke="#fff7ed" stroke-opacity="0.7" stroke-width="3"/>
+    <path d="M70 95 L70 124 C70 136 96 146 130 146 C164 146 190 136 190 124 L190 95" fill="#fff7ed" fill-opacity="0.24" stroke="#fff7ed" stroke-opacity="0.65" stroke-width="3"/>
+    <line x1="250" y1="55" x2="250" y2="126" stroke="#fff7ed" stroke-opacity="0.7" stroke-width="3"/>
+    <circle cx="250" cy="132" r="7" fill="#fff7ed" fill-opacity="0.8"/>
+    <line x1="250" y1="139" x2="250" y2="164" stroke="#fff7ed" stroke-opacity="0.7" stroke-width="3"/>
+    <circle cx="250" cy="170" r="5" fill="#fff7ed" fill-opacity="0.8"/>
+  </g>
+  <text x="90" y="210" font-family="Segoe UI, Arial, sans-serif" font-size="76" font-weight="700" fill="#fff7ed">Tutorials and Cheat-Sheets</text>
+  <text x="92" y="268" font-family="Segoe UI, Arial, sans-serif" font-size="30" fill="#ffedd5">Sharing practical knowledge, patterns, and quick references.</text>
+</svg>
